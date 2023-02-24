@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "build:test": "nuxt build --mode test",
+    "build:prod": "nuxt build --mode prod",
+    "dev": "nuxt dev --mode dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@types/node": "^18.14.0",
+    "nuxt": "^3.2.2"
+  },
+  "dependencies": {
+    "@nuxtjs/composition-api": "^0.33.1",
+    "@pinia/nuxt": "^0.4.6",
+    "animate.css": "^4.1.1",
+    "daisyui": "^2.50.2",
+    "i": "^0.3.7",
+    "npm": "^9.5.0",
+    "pinia": "^2.0.30",
+    "pinia-plugin-persistedstate": "^3.1.0",
+    "vue3-count-to": "^1.1.2",
+    "wow.js": "^1.2.2"
+  }
+}
